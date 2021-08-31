@@ -6,7 +6,7 @@ const initialState = {
 	ETH: 0,
 	filters: {
 		class: 'All',
-		price: 'All',
+		price: 'Lowest',
 	},
 	coins: {
 		eth: 0,
