@@ -53,6 +53,10 @@ import {
 	plantStandardWaterBeech,
 	plantStandardWaterCact,
 	plantStandardWaterCactBr0,
+	fishNimoDualblade,
+	fishNimoDualbladeBr0,
+	fishNimoLamDualblade,
+	fishNimoLamDualbladeBr0,
 } from '../../utils/filterVars';
 
 const RecentlyListed = ({getEthPrice, getAxieLatest, filters}) => {
@@ -81,6 +85,10 @@ const RecentlyListed = ({getEthPrice, getAxieLatest, filters}) => {
 	const _fishKoi = fishKoi(axies);
 	const _fishKoiBreed0 = fishKoiBreed0(axies);
 	const _fishNimo = fishnimo(axies);
+	const _fishNimoDualblade = fishNimoDualblade(axies);
+	const _fishNimoDualbladeBr0 = fishNimoDualbladeBr0(axies);
+	const _fishNimoLamDualblade = fishNimoLamDualblade(axies);
+	const _fishNimoLamDualbladeBr0 = fishNimoLamDualbladeBr0(axies);
 	const _fishNimoBr0 = fishnimoBr0(axies);
 	const _fishnimoOranda = fishnimoOranda(axies);
 	const _fishnimoOrandaRiskyGoldBr0 = fishnimoOrandaRiskyGoldBr0(axies);
@@ -160,7 +168,11 @@ const RecentlyListed = ({getEthPrice, getAxieLatest, filters}) => {
 		_plantStandardWaterCact,
 		_plantStandardWaterCactBr0,
 		_plantYamBugBr0,
-		_terminator
+		_terminator,
+		_fishNimoDualbladeBr0,
+		_fishNimoDualblade,
+		_fishNimoLamDualbladeBr0,
+		_fishNimoLamDualblade
 	);
 
 	useEffect(() => {
@@ -180,13 +192,13 @@ const RecentlyListed = ({getEthPrice, getAxieLatest, filters}) => {
 				<div className='filters'>
 					<Filters />
 				</div>
-				{final &&
+				{/* {final &&
 					final[0] &&
 					window.open(
 						`https://marketplace.axieinfinity.com/axie/${final[0]?.id}`,
 						'_blank',
 						'status=yes,scrollbars=yes,toolbar=yes,resizable=yes,width=1200,height=1000,menubar'
-					)}
+					)} */}
 				<div>
 					<div className='dogs'>
 						<div className='div_cards'>
@@ -206,7 +218,7 @@ const RecentlyListed = ({getEthPrice, getAxieLatest, filters}) => {
 							)}
 						</div>
 					</div>
-					<div className='dogs'>
+					{/* 					<div className='dogs'>
 						<div className='div_cards'>
 							{axies ? (
 								axies.map((el, i) => <SaleCard key={i} axie={el} ETH={ETH} />)
@@ -214,7 +226,7 @@ const RecentlyListed = ({getEthPrice, getAxieLatest, filters}) => {
 								<Spinner />
 							)}
 						</div>
-					</div>
+					</div> */}
 				</div>
 			</StyledContainer>
 		</div>

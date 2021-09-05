@@ -13,7 +13,7 @@ export const getAxieLatest = () => async (dispatch) => {
 			variables: {
 				auctionType: 'Sale',
 				from: 0,
-				size: 10,
+				size: 30,
 				sort: 'Latest',
 			},
 		};
