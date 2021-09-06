@@ -32,13 +32,9 @@ import {
 	fishKoiLamStarGold,
 	fishKoiLamStarGoldBr0,
 	fishnimoOrandaRiskyGoldBr0,
-	fishTwoAnemoneNimoRiskyBr0,
 	fishTwoAnemoneNimoLam,
-	fishTwoAnemoneNimoLamBr0,
 	fishTwoAnemoneKoiLam,
-	fishTwoAnemoneKoiLamBr0,
 	fishTwoAnemoneKoiRisky,
-	fishTwoAnemoneKoiRiskyBr0,
 	plantPumpSerYamBug,
 	plantYamBugBr0,
 	fishKoiOrandaLam,
@@ -65,6 +61,7 @@ const RecentlyListed = ({getEthPrice, getAxieLatest, filters}) => {
 		getEthPrice();
 	};
 	const [timer, setTimer] = useState();
+	console.log(timer);
 	const axies = useSelector(({axies}) => axies);
 	const ETH = useSelector(({ETH}) => ETH);
 	const timerUpdateAxies = () => {
@@ -192,13 +189,13 @@ const RecentlyListed = ({getEthPrice, getAxieLatest, filters}) => {
 				<div className='filters'>
 					<Filters />
 				</div>
-				{/* {final &&
+				{final &&
 					final[0] &&
 					window.open(
 						`https://marketplace.axieinfinity.com/axie/${final[0]?.id}`,
 						'_blank',
 						'status=yes,scrollbars=yes,toolbar=yes,resizable=yes,width=1200,height=1000,menubar'
-					)} */}
+					)}
 				<div>
 					<div className='dogs'>
 						<div className='div_cards'>

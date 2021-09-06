@@ -21,7 +21,7 @@ export const plantStandardBreed0 = (axies) => {
 			({parts, auction, breedCount, stats, class: classs}) =>
 				breedCount === 0 &&
 				classs === 'Plant' &&
-				auction?.currentPriceUSD < 355 &&
+				auction?.currentPriceUSD < 360 &&
 				auction.startingPrice === auction.endingPrice &&
 				parts[2]?.id === 'back-pumpkin' &&
 				parts[3]?.id === 'mouth-serious' &&
@@ -39,7 +39,7 @@ export const plantStandardBeechBr0 = (axies) => {
 			({parts, auction, breedCount, stats, class: classs}) =>
 				breedCount === 0 &&
 				classs === 'Plant' &&
-				auction?.currentPriceUSD < 360 &&
+				auction?.currentPriceUSD < 345 &&
 				auction.startingPrice === auction.endingPrice &&
 				parts[2]?.id === 'back-pumpkin' &&
 				parts[3]?.id === 'mouth-serious' &&
@@ -70,7 +70,7 @@ export const plantStandardWaterBeech = (axies) => {
 		return axies.filter(
 			({parts, auction, stats, class: classs}) =>
 				classs === 'Plant' &&
-				auction?.currentPriceUSD < 380 &&
+				auction?.currentPriceUSD < 360 &&
 				auction.startingPrice === auction.endingPrice &&
 				parts[2]?.id === 'back-watering-can' &&
 				parts[3]?.id === 'mouth-serious' &&
@@ -87,7 +87,7 @@ export const plantStandardWaterBeechBr0 = (axies) => {
 			({parts, auction, breedCount, stats, class: classs}) =>
 				breedCount === 0 &&
 				classs === 'Plant' &&
-				auction?.currentPriceUSD < 440 &&
+				auction?.currentPriceUSD < 460 &&
 				auction.startingPrice === auction.endingPrice &&
 				parts[2]?.id === 'back-watering-can' &&
 				parts[3]?.id === 'mouth-serious' &&
@@ -105,7 +105,7 @@ export const plantStandardWaterCactBr0 = (axies) => {
 			({parts, auction, breedCount, stats, class: classs}) =>
 				breedCount === 0 &&
 				classs === 'Plant' &&
-				auction?.currentPriceUSD < 420 &&
+				auction?.currentPriceUSD < 415 &&
 				auction.startingPrice === auction.endingPrice &&
 				parts[2]?.id === 'back-watering-can' &&
 				parts[3]?.id === 'mouth-serious' &&
@@ -121,7 +121,7 @@ export const plantStandardWaterCact = (axies) => {
 		return axies.filter(
 			({parts, auction, stats, class: classs}) =>
 				classs === 'Plant' &&
-				auction?.currentPriceUSD < 380 &&
+				auction?.currentPriceUSD < 360 &&
 				auction.startingPrice === auction.endingPrice &&
 				parts[2]?.id === 'back-watering-can' &&
 				parts[3]?.id === 'mouth-serious' &&
@@ -153,7 +153,7 @@ export const plantStandardBugBr0 = (axies) => {
 			({parts, auction, breedCount, stats, class: classs}) =>
 				breedCount === 0 &&
 				classs === 'Plant' &&
-				auction?.currentPriceUSD < 450 &&
+				auction?.currentPriceUSD < 435 &&
 				auction.startingPrice === auction.endingPrice &&
 				parts[2]?.id === 'back-pumpkin' &&
 				parts[3]?.id === 'mouth-serious' &&
@@ -171,7 +171,7 @@ export const plantYamBugBr0 = (axies) => {
 			({parts, auction, breedCount, stats, class: classs}) =>
 				breedCount === 0 &&
 				classs === 'Plant' &&
-				auction?.currentPriceUSD < 550 &&
+				auction?.currentPriceUSD < 580 &&
 				auction.startingPrice === auction.endingPrice &&
 				parts[2]?.id === 'back-pumpkin' &&
 				parts[3]?.id === 'mouth-serious' &&
@@ -188,7 +188,7 @@ export const plantPumpSerYamBug = (axies) => {
 		return axies.filter(
 			({parts, auction, stats, class: classs}) =>
 				classs === 'Plant' &&
-				auction?.currentPriceUSD < 480 &&
+				auction?.currentPriceUSD < 460 &&
 				auction.startingPrice === auction.endingPrice &&
 				parts[2]?.id === 'back-pumpkin' &&
 				parts[3]?.id === 'mouth-serious' &&
@@ -207,7 +207,7 @@ export const fishKoiLamStarGold = (axies) => {
 		return axies.filter(
 			({parts, auction, stats, class: classs}) =>
 				classs === 'Aquatic' &&
-				auction?.currentPriceUSD < 300 &&
+				auction?.currentPriceUSD < 290 &&
 				auction.startingPrice === auction.endingPrice &&
 				parts[2]?.id === 'back-goldfish' &&
 				parts[3]?.id === 'mouth-lam' &&
@@ -223,7 +223,7 @@ export const fishKoiLamStarGoldBr0 = (axies) => {
 			({parts, auction, breedCount, stats, class: classs}) =>
 				classs === 'Aquatic' &&
 				breedCount === 0 &&
-				auction?.currentPriceUSD < 330 &&
+				auction?.currentPriceUSD < 320 &&
 				auction.startingPrice === auction.endingPrice &&
 				parts[2]?.id === 'back-goldfish' &&
 				parts[3]?.id === 'mouth-lam' &&
@@ -273,7 +273,7 @@ export const fishKoiEspada = (axies) => {
 		return axies.filter(
 			({parts, auction, stats, class: classs}) =>
 				classs === 'Aquatic' &&
-				auction?.currentPriceUSD < 325 &&
+				auction?.currentPriceUSD < 320 &&
 				auction.startingPrice === auction.endingPrice &&
 				parts[2]?.id === 'back-goldfish' &&
 				parts[3]?.id === 'mouth-risky-fish' &&
@@ -305,7 +305,7 @@ export const fishKoiBreed0 = (axies) => {
 			({parts, auction, breedCount, stats, class: classs}) =>
 				breedCount === 0 &&
 				classs === 'Aquatic' &&
-				auction?.currentPriceUSD < 320 &&
+				auction?.currentPriceUSD < 310 &&
 				auction.startingPrice === auction.endingPrice &&
 				parts[2]?.id === 'back-goldfish' &&
 				parts[3]?.id === 'mouth-risky-fish' &&
@@ -322,7 +322,7 @@ export const fishKoi = (axies) => {
 		return axies.filter(
 			({parts, auction, stats, class: classs}) =>
 				classs === 'Aquatic' &&
-				auction?.currentPriceUSD < 305 &&
+				auction?.currentPriceUSD < 295 &&
 				auction.startingPrice === auction.endingPrice &&
 				parts[2]?.id === 'back-goldfish' &&
 				parts[3]?.id === 'mouth-risky-fish' &&
@@ -338,7 +338,7 @@ export const fishnimo = (axies) => {
 		return axies.filter(
 			({parts, auction, stats, class: classs}) =>
 				classs === 'Aquatic' &&
-				auction?.currentPriceUSD < 335 &&
+				auction?.currentPriceUSD < 320 &&
 				auction.startingPrice === auction.endingPrice &&
 				parts[2]?.id === 'back-goldfish' &&
 				parts[3]?.id === 'mouth-risky-fish' &&
@@ -354,7 +354,7 @@ export const fishnimoBr0 = (axies) => {
 			({parts, breedCount, auction, stats, class: classs}) =>
 				breedCount === 0 &&
 				classs === 'Aquatic' &&
-				auction?.currentPriceUSD < 400 &&
+				auction?.currentPriceUSD < 365 &&
 				auction.startingPrice === auction.endingPrice &&
 				parts[2]?.id === 'back-goldfish' &&
 				parts[3]?.id === 'mouth-risky-fish' &&
@@ -371,7 +371,7 @@ export const fishnimoOrandaRiskyGoldBr0 = (axies) => {
 			({parts, breedCount, auction, stats, class: classs}) =>
 				breedCount === 0 &&
 				classs === 'Aquatic' &&
-				auction?.currentPriceUSD < 415 &&
+				auction?.currentPriceUSD < 405 &&
 				auction.startingPrice === auction.endingPrice &&
 				parts[2]?.id === 'back-goldfish' &&
 				parts[3]?.id === 'mouth-risky-fish' &&
@@ -387,7 +387,7 @@ export const fishnimoOranda = (axies) => {
 		return axies.filter(
 			({parts, auction, stats, class: classs}) =>
 				classs === 'Aquatic' &&
-				auction?.currentPriceUSD < 385 &&
+				auction?.currentPriceUSD < 345 &&
 				auction.startingPrice === auction.endingPrice &&
 				parts[2]?.id === 'back-goldfish' &&
 				parts[3]?.id === 'mouth-risky-fish' &&
@@ -402,7 +402,7 @@ export const fishNimoLam = (axies) => {
 		return axies.filter(
 			({parts, auction, stats, class: classs}) =>
 				classs === 'Aquatic' &&
-				auction?.currentPriceUSD < 380 &&
+				auction?.currentPriceUSD < 370 &&
 				auction.startingPrice === auction.endingPrice &&
 				parts[2]?.id === 'back-goldfish' &&
 				parts[3]?.id === 'mouth-lam' &&
@@ -418,7 +418,7 @@ export const fishNimoLamBr0 = (axies) => {
 			({parts, auction, breedCount, stats, class: classs}) =>
 				breedCount === 0 &&
 				classs === 'Aquatic' &&
-				auction?.currentPriceUSD < 435 &&
+				auction?.currentPriceUSD < 430 &&
 				auction.startingPrice === auction.endingPrice &&
 				parts[2]?.id === 'back-goldfish' &&
 				parts[3]?.id === 'mouth-lam' &&
@@ -436,7 +436,7 @@ export const fishNimoLamStarBr0 = (axies) => {
 			({parts, auction, breedCount, stats, class: classs}) =>
 				breedCount === 0 &&
 				classs === 'Aquatic' &&
-				auction?.currentPriceUSD < 380 &&
+				auction?.currentPriceUSD < 385 &&
 				auction.startingPrice === auction.endingPrice &&
 				parts[2]?.id === 'back-goldfish' &&
 				parts[3]?.id === 'mouth-lam' &&
@@ -452,7 +452,7 @@ export const fishNimoLamStar = (axies) => {
 		return axies.filter(
 			({parts, auction, stats, class: classs}) =>
 				classs === 'Aquatic' &&
-				auction?.currentPriceUSD < 340 &&
+				auction?.currentPriceUSD < 315 &&
 				auction.startingPrice === auction.endingPrice &&
 				parts[2]?.id === 'back-goldfish' &&
 				parts[3]?.id === 'mouth-lam' &&
@@ -461,37 +461,20 @@ export const fishNimoLamStar = (axies) => {
 				stats.speed === 57
 		);
 };
-export const fishNimoDualblade = (axies) => {
+export const fishNimoLamDualblade = (axies) => {
 	if (axies.length)
 		return axies.filter(
 			({parts, auction, stats, class: classs}) =>
 				classs === 'Aquatic' &&
-				auction?.currentPriceUSD < 550 &&
+				auction?.currentPriceUSD < 500 &&
 				auction.startingPrice === auction.endingPrice &&
 				parts[2]?.id === 'back-goldfish' &&
-				parts[3]?.id === 'mouth-risky-fish' &&
+				parts[3]?.id === 'mouth-lam' &&
 				parts[4]?.id === 'horn-dual-blade' &&
 				parts[5]?.id === 'tail-nimo' &&
 				stats.speed >= 52
 		);
 };
-export const fishNimoDualbladeBr0 = (axies) => {
-	if (axies.length) {
-		return axies.filter(
-			({parts, auction, breedCount, stats, class: classs}) =>
-				breedCount === 0 &&
-				classs === 'Aquatic' &&
-				auction?.currentPriceUSD < 600 &&
-				auction.startingPrice === auction.endingPrice &&
-				parts[2]?.id === 'back-goldfish' &&
-				parts[3]?.id === 'mouth-risky-fish' &&
-				parts[4]?.id === 'horn-dual-blade' &&
-				parts[5]?.id === 'tail-nimo' &&
-				stats.speed >= 52
-		);
-	}
-};
-
 export const fishNimoLamDualbladeBr0 = (axies) => {
 	if (axies.length) {
 		return axies.filter(
@@ -508,7 +491,24 @@ export const fishNimoLamDualbladeBr0 = (axies) => {
 		);
 	}
 };
-export const fishNimoLamDualblade = (axies) => {
+
+export const fishNimoDualbladeBr0 = (axies) => {
+	if (axies.length) {
+		return axies.filter(
+			({parts, auction, breedCount, stats, class: classs}) =>
+				breedCount === 0 &&
+				classs === 'Aquatic' &&
+				auction?.currentPriceUSD < 600 &&
+				auction.startingPrice === auction.endingPrice &&
+				parts[2]?.id === 'back-goldfish' &&
+				parts[3]?.id === 'mouth-risky-fish' &&
+				parts[4]?.id === 'horn-dual-blade' &&
+				parts[5]?.id === 'tail-nimo' &&
+				stats.speed >= 52
+		);
+	}
+};
+export const fishNimoDualblade = (axies) => {
 	if (axies.length)
 		return axies.filter(
 			({parts, auction, stats, class: classs}) =>
@@ -516,7 +516,7 @@ export const fishNimoLamDualblade = (axies) => {
 				auction?.currentPriceUSD < 500 &&
 				auction.startingPrice === auction.endingPrice &&
 				parts[2]?.id === 'back-goldfish' &&
-				parts[3]?.id === 'mouth-lam' &&
+				parts[3]?.id === 'mouth-risky-fish' &&
 				parts[4]?.id === 'horn-dual-blade' &&
 				parts[5]?.id === 'tail-nimo' &&
 				stats.speed >= 52
@@ -524,21 +524,21 @@ export const fishNimoLamDualblade = (axies) => {
 };
 
 //------------------------ ANEMONA --------------------------------//
-
-export const fishTwoAnemoneNimoLam = (axies) => {
+export const fishTwoAnemoneNimoRisky = (axies) => {
 	if (axies.length)
 		return axies.filter(
 			({parts, auction, stats, class: classs}) =>
 				classs === 'Aquatic' &&
-				auction?.currentPriceUSD < 415 &&
+				auction?.currentPriceUSD < 420 &&
 				auction.startingPrice === auction.endingPrice &&
 				parts[2]?.id === 'back-anemone' &&
-				parts[3]?.id === 'mouth-lam' &&
+				parts[3]?.id === 'mouth-risky-fish' &&
 				parts[4]?.id === 'horn-anemone' &&
 				parts[5]?.id === 'tail-nimo' &&
 				stats.speed === 57
 		);
 };
+
 /* export const fishTwoAnemoneNimoLamBr0 = (axies) => {
 	if (axies.length)
 		return axies.filter(
@@ -555,21 +555,21 @@ export const fishTwoAnemoneNimoLam = (axies) => {
 				stats.hp === 45
 		);
 }; */
-
-export const fishTwoAnemoneNimoRisky = (axies) => {
+export const fishTwoAnemoneNimoLam = (axies) => {
 	if (axies.length)
 		return axies.filter(
 			({parts, auction, stats, class: classs}) =>
 				classs === 'Aquatic' &&
-				auction?.currentPriceUSD < 450 &&
+				auction?.currentPriceUSD < 415 &&
 				auction.startingPrice === auction.endingPrice &&
 				parts[2]?.id === 'back-anemone' &&
-				parts[3]?.id === 'mouth-risky-fish' &&
+				parts[3]?.id === 'mouth-lam' &&
 				parts[4]?.id === 'horn-anemone' &&
 				parts[5]?.id === 'tail-nimo' &&
 				stats.speed === 57
 		);
 };
+
 /* export const fishTwoAnemoneNimoRiskyBr0 = (axies) => {
 	if (axies.length)
 		return axies.filter(
@@ -587,20 +587,6 @@ export const fishTwoAnemoneNimoRisky = (axies) => {
 		);
 }; */
 
-export const fishTwoAnemoneKoiRisky = (axies) => {
-	if (axies.length)
-		return axies.filter(
-			({parts, auction, stats, class: classs}) =>
-				classs === 'Aquatic' &&
-				auction?.currentPriceUSD < 330 &&
-				auction.startingPrice === auction.endingPrice &&
-				parts[2]?.id === 'back-anemone' &&
-				parts[3]?.id === 'mouth-risky-fish' &&
-				parts[4]?.id === 'horn-anemone' &&
-				parts[5]?.id === 'tail-koi' &&
-				stats.speed === 57
-		);
-};
 /* export const fishTwoAnemoneKoiRiskyBr0 = (axies) => {
 	if (axies.length)
 		return axies.filter(
@@ -623,7 +609,7 @@ export const fishTwoAnemoneKoiLam = (axies) => {
 		return axies.filter(
 			({parts, auction, stats, class: classs}) =>
 				classs === 'Aquatic' &&
-				auction?.currentPriceUSD < 310 &&
+				auction?.currentPriceUSD < 300 &&
 				auction.startingPrice === auction.endingPrice &&
 				parts[2]?.id === 'back-anemone' &&
 				parts[3]?.id === 'mouth-lam' &&
@@ -648,7 +634,20 @@ export const fishTwoAnemoneKoiLam = (axies) => {
 				stats.hp === 45
 		);
 }; */
-
+export const fishTwoAnemoneKoiRisky = (axies) => {
+	if (axies.length)
+		return axies.filter(
+			({parts, auction, stats, class: classs}) =>
+				classs === 'Aquatic' &&
+				auction?.currentPriceUSD < 315 &&
+				auction.startingPrice === auction.endingPrice &&
+				parts[2]?.id === 'back-anemone' &&
+				parts[3]?.id === 'mouth-risky-fish' &&
+				parts[4]?.id === 'horn-anemone' &&
+				parts[5]?.id === 'tail-koi' &&
+				stats.speed === 57
+		);
+};
 //TERMINATOR//
 
 export const terminator = (axies) => {
@@ -656,7 +655,7 @@ export const terminator = (axies) => {
 		return axies.filter(
 			({parts, auction, stats, class: classs}) =>
 				classs === 'Reptile' &&
-				auction?.currentPriceUSD < 410 &&
+				auction?.currentPriceUSD < 400 &&
 				auction.startingPrice === auction.endingPrice &&
 				parts[2]?.id === 'back-snail-shell' &&
 				parts[3]?.id === 'mouth-tiny-turtle' &&
@@ -671,7 +670,7 @@ export const birdDamage = (axies) => {
 		return axies.filter(
 			({parts, auction, stats, class: classs}) =>
 				classs === 'Bird' &&
-				auction?.currentPriceUSD < 300 &&
+				auction?.currentPriceUSD < 280 &&
 				auction.startingPrice === auction.endingPrice &&
 				parts[2]?.id === 'back-kingfisher' &&
 				parts[3]?.id === 'mouth-little-owl' &&
@@ -686,7 +685,7 @@ export const birdDamagePigeon = (axies) => {
 		return axies.filter(
 			({parts, auction, stats, class: classs}) =>
 				classs === 'Bird' &&
-				auction?.currentPriceUSD < 290 &&
+				auction?.currentPriceUSD < 280 &&
 				auction.startingPrice === auction.endingPrice &&
 				parts[2]?.id === 'back-pigeon-post' &&
 				parts[3]?.id === 'mouth-little-owl' &&
@@ -717,7 +716,7 @@ export const comboRoninGodaImpCotton = (axies) => {
 		return axies.filter(
 			({parts, auction, stats, class: classs}) =>
 				classs === 'Beast' &&
-				auction?.currentPriceUSD < 280 &&
+				auction?.currentPriceUSD < 255 &&
 				auction.startingPrice === auction.endingPrice &&
 				parts[2]?.id === 'back-ronin' &&
 				parts[3]?.id === 'mouth-goda' &&
@@ -732,7 +731,7 @@ export const comboRoninGodaImpCottonBr0 = (axies) => {
 			({parts, breedCount, auction, stats, class: classs}) =>
 				breedCount === 0 &&
 				classs === 'Beast' &&
-				auction?.currentPriceUSD < 300 &&
+				auction?.currentPriceUSD < 285 &&
 				auction.startingPrice === auction.endingPrice &&
 				parts[2]?.id === 'back-ronin' &&
 				parts[3]?.id === 'mouth-goda' &&
@@ -750,7 +749,7 @@ export const comboRoninBr0 = (axies) => {
 			({parts, breedCount, auction, stats, class: classs}) =>
 				breedCount === 0 &&
 				classs === 'Beast' &&
-				auction?.currentPriceUSD < 325 &&
+				auction?.currentPriceUSD < 340 &&
 				auction.startingPrice === auction.endingPrice &&
 				parts[2]?.id === 'back-ronin' &&
 				parts[3]?.id === 'mouth-nut-cracker' &&
@@ -767,7 +766,7 @@ export const comboRonin = (axies) => {
 		return axies.filter(
 			({parts, auction, stats, class: classs}) =>
 				classs === 'Beast' &&
-				auction?.currentPriceUSD < 290 &&
+				auction?.currentPriceUSD < 300 &&
 				auction.startingPrice === auction.endingPrice &&
 				parts[2]?.id === 'back-ronin' &&
 				parts[3]?.id === 'mouth-nut-cracker' &&
@@ -797,7 +796,7 @@ export const comboDualBladeBr0 = (axies) => {
 			({parts, auction, breedCount, stats, class: classs}) =>
 				breedCount === 0 &&
 				classs === 'Beast' &&
-				auction?.currentPriceUSD < 340 &&
+				auction?.currentPriceUSD < 350 &&
 				auction.startingPrice === auction.endingPrice &&
 				parts[2]?.id === 'back-ronin' &&
 				parts[3]?.id === 'mouth-nut-cracker' &&
